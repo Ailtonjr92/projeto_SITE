@@ -1,0 +1,337 @@
+
+
+img.body{
+    width: 100%;
+    height: 100%;
+
+}
+
+h2.borda{
+    border-bottom: 5px solid #f2f2f2;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+}
+
+h3.borda{
+    border-bottom: 5px solid #f2f2f2;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+
+}
+.botao {
+    border: 2px solid #ccc;
+    color: blanchedalmond;
+    float: right;
+    font-family:Lato, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 25%;
+    height: 35px;
+    margin: 7px;
+    border-radius: 5px;
+    background-color:navy;
+    margin-bottom:10px;
+    opacity: 0.9;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.left{
+    margin-top:1%;
+    width:40%;
+    float:left;
+    margin-bottom:2%;
+    position: relative;
+    text-align:justify;
+    background-color: transparent;
+}
+
+/*.tudo{
+    margin-top:1%;
+    width:20%;
+    float:left;
+    margin-bottom:2%;
+    text-align:justify;
+    background-color: transparent;
+}*/
+
+
+.right{
+    margin-top:1%;
+    width:48%;
+    position: relative;
+    float:right;
+    margin-bottom:2%;
+    text-align:justify;
+background-color: transparent;
+}
+
+
+
+a.linkdois:link, a.linkdois:visited, a.linkdois:active {
+  color: blue;
+}
+
+
+
+
+
+section{
+    width: 100%;
+    height: auto;
+}
+img{
+width:100%;/* Faz a largura ficar igual a da largura da imagem de exemplo */
+height:220px;/* Faz a altura ficar igual a da altura da imagem de exemplo */
+float:none;
+}
+
+
+
+
+
+
+
+article.dif{
+    border: solid thick white;
+    border-radius: 1em;
+    width: auto;
+    background-color:#333333 ;
+    height: auto;
+    margin-left: 3px;
+    padding: 2px 2px 2px 2px;
+
+}
+
+
+
+p.diferente {
+    color: black;
+    text-align: center;
+    font-size: 1.0em;
+    line-height: 1.4em;
+    height: auto;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 30px;
+    background-color: transparent;
+   font-weight: bolder;
+}
+
+/*FIGURE---------------------------------------FIGURE---------------------------------------------------------------------------*/
+
+.zoomimage:hover{
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+    transition:all .6s;
+}
+
+figure.margens{
+    margin: 2% 1% 2% 1%;
+    width: 220px;
+    height: 160px;
+    padding: 1%;
+    float: left;
+  margin-right: 50px;
+
+}
+
+figure{
+    margin: 2% 1% 2% 1%;
+    width: 220px;
+    height: 160px;
+    padding: 1%;
+    float: left;
+    display:inline-block;
+}
+
+figure img{
+    width: 100%;
+    height: 90%;
+}
+figure figcaption{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 6%;
+}
+/*FIGURE---------------------------------------FIGURE---------------------------------------------------------------------------*/
+h2.diferente{
+    color: lightslategray;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
+h3{
+    text-align:center;
+font-size: 0.9em;
+    font-family: "arial", "verdana", "tahoma";
+color:black;
+}
+
+
+
+h4{text-align: center;
+    font-size:0.7em;
+    font-family: "arial", "verdana", "tahoma";
+    color:blanchedalmond;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    font-size: 1.0em;
+    width: 85%;
+    height: auto;
+    line-height: 150%;
+    margin-left: 10%;
+    margin-right: 0%;
+    font-family: arial, verdana, tahoma;
+    background-color:transparent;
+    text-indent:20px;
+}
+
+	article {
+        width: 85%;
+        background-color: transparent;
+        height: auto;
+        margin-left: 90px;
+        margin-right: 0px;
+        padding: 2px 2px 2px 2px;
+        float: left;
+    }
+
+	
+	/* menu ---------------------MENU----------------------MENU---------MENU-----------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #c0c0c0;
+}
+
+
+
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/* FIM         menu --------------------------------------------FIM DA MENU NAV------------------------------------------------------*/
+
+/*contato-----------------------------------------------------------CONTATO*/
+textarea{
+    size:100px;
+}
+article.contato{
+    width:40.50937734433608%;
+}
+
+article.contato h2{
+    border-bottom: 5px solid #f2f2f2;
+    margin: 0 0 20px 0;
+    padding: 0.3750937734433608%;
+}
+article.contato p{
+    font-family:arial;
+    font-size:15px;
+    text-indent: 0px;
+
+}
+h3.contato{
+    text-align:left;
+    font-size: 0.9em;
+    font-family: "arial", "verdana", "tahoma";
+    color:dodgerblue;
+}
+
+article.contato input, article.contato textarea, article.contato select{
+    display: block;
+    margin-bottom: 10px;
+    border:solid 1px;
+    border-radius:15px;
+    padding:10px;
+}
+
+article.contato input.contato{
+    display:inline-block;
+    border: 1px;
+    border-radius:15px;
+    padding:10px;
+    background-color:#1168AF;
+    color:white;
+    float:right;
+}
+article.contato input.contato:hover{
+    background-color:#14A7E0;
+}
+
+
+article.contato form input.caixa{
+    width:95%;
+}
+textarea.caixa{
+    width:95%;
+}
+
+/*contato-------------------------------------------FIM DO CONTATO--------------------------------*/
+/*----------------------------RODAPE-----INICIO------------------------------------------------------------------------*/
+footer {
+    clear: both;
+    background: #eee;
+    padding: 29px;
+    text-align: center;
+    margin-top:0px;
+    color: #f2f2f2;
+    background-color: black;
+}
+h4.footer_left{
+    text-align: left;
+    margin-right: 450px;
+    font-size:0.9em;
+    font-family: "arial", "verdana", "tahoma";
+    color:blanchedalmond;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+img.fot_img_left{
+    float: left;
+    width: 60px;
+    height: 35px;
+    margin-right: 30px;
+}
+
+/*----------------------------------RODAPE-------FINAL------------------------------------------------------*/

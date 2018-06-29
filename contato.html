@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+    <meta charset="UTF-8">
+
+    <title>AJR soluções em Ti</title>
+</head>
+
+<body>
+
+<header>
+
+    <img alt="soluções em Ti" src="imagens/trabalhoajr.png"/>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fatec_jales.html">Fatec</a></li>
+            <li><a href="viagens.html">Viagens</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            </li>
+            <li style="float:right"><a class="active" href="sobre_mim.html">Sobre</a></li>
+
+
+
+        </ul>
+    </nav>
+</header>
+<section>
+<article class="contato">
+    <form method="post" action='enviar_email.php' type="text/plain>
+        <h2>Entre em contato</h2>
+        <p>Preencha os campos com suas informações a baixo para o envio da mensagem.</p>
+
+        <label for="nome"><h3 class="contato">Nome</h3></label>
+        <input class="caixa" type="text" id="nome" name="nome" placeholder="Deixe aqui seu nome" maxlength="40" required/>
+
+        <label for="email"><h3 class="contato">E-mail</h3></label>
+        <input class="caixa" type="email" placeholder="Deixe aqui seu E-mail" id="email"  required/>
+
+        <label for="tel"><h3 class="contato">Telefone</h3></label>
+        <input class="caixa" type="tel" id="tel" placeholder="Digite aqui seu telefone" required/>
+
+        <label for="assunto"><h3 class="contato">Assunto</h3></label>
+        <input class="caixa" type="text" id="assunto" name="assunto" placeholder="Deixe aqui o assunto" maxlength="40" required/>
+
+        <label for="observacao"><h3 class="contato">Mensagem</h3></label>
+        <textarea class="caixa" cols="44" rows="10" id="observacao"  placeholder="Deixe aqui sua mensagem" required ></textarea>
+
+        <input class="contato" type="reset" value="Limpar"/>
+        <input class="contato" type="submit" value="Enviar"/>
+    </form>
+</article>
+</section>
+<footer>
+    <h4 class="footer_left">Contatos:</h4>
+    <a  href="https://www.facebook.com/ailton.alvesjunior"><img class="fot_img_left" src="imagens/facebook.png"></a></img>
+
+
+
+    Copyright&copy; Ailton Alves Junior, todos os direitos reservados.
+
+</footer>
+
+</body>
+</html>
